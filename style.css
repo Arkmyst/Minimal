@@ -5,6 +5,10 @@
 	font-size: 20px;
 }
 
+div.site {
+    display: flex;
+    justify-content: center;
+}
 
 html {
     /*font-size: 18px;*/
