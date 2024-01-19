@@ -5,14 +5,9 @@
     src: url(./assets/Caskaydia\ Cove\ Nerd\ Font\ Complete.ttf);
 }
 
-{
-	font-size: 20px;
-}
-
 html {
-  /*   font-size: 18px; */
+    /*font-size: 18px;*/
     font-family: 'Iosevka', monospace;
-/*     font-family: "Caskaydia Cove Nerd Font"; */
     /*font-weight: black;*/
     background-color: var(--background);
     color: var(--foreground);
@@ -40,10 +35,9 @@ html {
     text-align: left;
 }
 
-
-/* .lst { */
-/*     padding: 5px; */
-/* }  */
+/* .lst {
+    padding: 5px;
+} */
 
 a {
     text-decoration: none;
