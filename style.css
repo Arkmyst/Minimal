@@ -1,10 +1,11 @@
 @import "./colors.css";
+
 @font-face {
     font-family: "Caskaydia Cove Nerd Font";
     src: url(./assets/Caskaydia\ Cove\ Nerd\ Font\ Complete.ttf);
 }
 
-*{
+{
 	font-size: 20px;
 }
 
