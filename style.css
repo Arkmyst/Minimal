@@ -9,7 +9,7 @@ body {
     background-position: 50% 35%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #282828;
+    background-color: var(--background);
     font-family: "Caskaydia Cove Nerd Font";
     text-align: center;
     margin: 0;
@@ -19,10 +19,10 @@ body {
     height: 100%;
 }
 
-input {
-    color: #ebdbb2;
-    background-color: #282828;
+.searchbar {
+    color: var(--foreground);
     font-family: 'Caskaydia Cove Nerd Font';
+    background-color: var(--background);
     outline: none;
     min-width: 300px;
     max-width: 700px;
@@ -39,13 +39,13 @@ input {
 	font-size: 20px;
 }
 
-html {
-    /*font-size: 18px;*/
-    font-family: 'Iosevka', monospace;
-    /*font-weight: black;*/
-    background-color: var(--background);
-    color: var(--foreground);
-}
+/* html { */
+/*     /*font-size: 18px;*/ */
+/*     font-family: 'Iosevka', monospace; */
+/*     /*font-weight: black;*/ */
+/*     background-color: var(--background); */
+/*     color: var(--foreground); */
+/* } */
 
 .box {
     width: 700px;
